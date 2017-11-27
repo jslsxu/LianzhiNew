@@ -1,0 +1,58 @@
+PODS:
+  - CryptoSwift (0.6.9)
+  - FCFileManager (1.0.18)
+  - FDFullscreenPopGesture (1.1)
+  - FMDB (2.7.2):
+    - FMDB/standard (= 2.7.2)
+  - FMDB/standard (2.7.2)
+  - Masonry (1.0.2)
+  - MJRefresh (3.1.12)
+  - ReactiveCocoa (5.0.4):
+    - ReactiveSwift (~> 1.1)
+  - ReactiveSwift (1.1.5):
+    - Result (~> 3.2)
+  - Result (3.2.3)
+  - SCRecorder (2.7.0)
+  - SSZipArchive (2.0.1)
+  - STPickerView (2.2)
+  - TTTAttributedLabel (2.0.0)
+  - UMengAnalytics (4.2.4)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - CryptoSwift
+  - FCFileManager
+  - FDFullscreenPopGesture
+  - FMDB
+  - Masonry
+  - MJRefresh
+  - ReactiveCocoa
+  - SCRecorder
+  - SSZipArchive
+  - STPickerView
+  - TTTAttributedLabel
+  - UMengAnalytics
+  - YYKit
+
+SPEC CHECKSUMS:
+  CryptoSwift: a22f6ba238e9ce4d26ee7bf45b9ed82e7122d4a0
+  FCFileManager: 3d13576da1f709d37460bd7669cdf07b9d6d8bc3
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  ReactiveCocoa: b31e754d15937811ede648fc83cd68f5de70a3d4
+  ReactiveSwift: 3fea31f8fc49f112d2dc613282c5d395c4d167bb
+  Result: 128640a6347e8d2ae48b142556739a2d13f90ce6
+  SCRecorder: bbb521dbc222908876ec9cd9156bbc8a893bed44
+  SSZipArchive: 6678776f378494909195d3f1b3f00d91e76084f9
+  STPickerView: 4c2119e1836f440d8942836850eb081e8381a334
+  TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
+  UMengAnalytics: ef8d45f94c0e5771dc364cf6a5731d9d3b101da2
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: b40b236dc9483e7042a82913d30064b6f912e127
+
+COCOAPODS: 1.2.1

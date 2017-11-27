@@ -1,0 +1,24 @@
+use_frameworks!
+platform:ios,'8.0'
+target "LianZhiTeacher" do
+pod "FCFileManager"
+pod "FMDB"
+pod "YYKit"
+pod "CTAssetsPickerController"
+pod "SSZipArchive"
+pod "MJRefresh"
+pod 'SCRecorder'
+pod "FDFullscreenPopGesture"
+pod 'Masonry'
+pod "ReactiveCocoa", "2.5"
+pod 'SWTableViewCell', '~> 0.3.7'
+pod "MWPhotoBrowser"
+pod 'pop'
+pod 'XHRealTimeBlur'
+pod 'MGSwipeTableCell'
+pod 'UMengAnalytics'
+pod 'TTTAttributedLabel'
+pod 'WYPopoverController'
+pod 'CryptoSwift'
+
+end
