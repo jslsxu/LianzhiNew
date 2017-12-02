@@ -30,7 +30,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.title = @"相册";
+    self.title = self.classInfo.name;
     [self setSupportPullDown:YES];
     [self setSupportPullUp:YES];
     [self.collectionView registerClass:[PhotoFlowHeaderView class] forSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:@"PhotoFlowHeaderView"];
@@ -51,7 +51,7 @@
         [params setValue:@"0" forKey:@"start"];
     else
         [params setValue:kStringFromValue(self.collectionViewModel.modelItemArray.count) forKey:@"start"];
-    [params setValue:self.classID forKey:@"class_id"];
+    [params setValue:self.classInfo.classID forKey:@"class_id"];
     [task setParams:params];
     return task;
 }
@@ -63,7 +63,7 @@
 
 - (NSString *)cacheFileName
 {
-    return [NSString stringWithFormat:@"%@_%@",NSStringFromClass([self class]),self.classID];
+    return [NSString stringWithFormat:@"%@_%@",NSStringFromClass([self class]),self.classInfo.classID];
 }
 
 - (void)TNBaseCollectionViewControllerModifyLayout:(UICollectionViewFlowLayout *)layout
@@ -117,7 +117,7 @@
     MJPhotoBrowser *browser = [[MJPhotoBrowser alloc] init];
     [browser setPhotos:self.collectionViewModel.modelItemArray];
     [browser setCurrentPhotoIndex:index];
-    [browser setClassID:self.classID];
+    [browser setClassID:self.classInfo.classID];
     [browser setDeleteCallBack:^(NSInteger num) {
         PhotoFlowModel *flowModel = (PhotoFlowModel *)self.collectionViewModel;
         flowModel.total -= num;

@@ -19,8 +19,8 @@
 #import "ClassAppCell.h"
 #import "HomeworkClassVC.h"
 #import "HomeWorkVC.h"
-#import "LZMicrolessonVCViewController.h"
-#import "ResourceMainVC.h"
+//#import "LZMicrolessonVCViewController.h"
+//#import "ResourceMainVC.h"
 #define ClassIdKey                  @"userClassId"
 #define kBannerHeight               (kScreenWidth * 29 / 64)
 
@@ -127,7 +127,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"班应用";
+    self.title = @"应用盒";
     // Do any additional setup after loading the view.
     [self.collectionView registerClass:[ApplicationBoxHeaderView class] forSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:@"ApplicationBoxHeaderView"];
     [self.collectionView setShowsVerticalScrollIndicator:NO];
@@ -312,8 +312,7 @@
                 void (^openWebVC)(NSString *,ClassInfo *) = ^(NSString *url,ClassInfo * info){
                     TNBaseWebViewController *webVC = nil;
                     if([host isEqualToString:@"lzmicrolesson.edugate.cn"]){
-//                        url = @"http://125.39.80.78:3000/app/ios/?userId=1252481&userRole=S";
-                        webVC = [[LZMicrolessonVCViewController alloc] initWithUrl:[NSURL URLWithString:url]];
+//                        webVC = [[LZMicrolessonVCViewController alloc] initWithUrl:[NSURL URLWithString:url]];
                         
                         if(info)
                         {
@@ -407,11 +406,11 @@
                         }
                         else if([host isEqualToString:@"estimate"]) //连枝资源
                         {
-                            ResourceMainVC *resourceMainVC = [[ResourceMainVC alloc] init];
-                            [resourceMainVC setClassInfo:classInfo];
-                            NSString *schoolName = classInfo.school.schoolName;
-                            [MobClick event:@"click_estimate_id" attributes:@{@"OrgName" : schoolName}];
-                            [CurrentROOTNavigationVC pushViewController:resourceMainVC animated:YES];
+//                            ResourceMainVC *resourceMainVC = [[ResourceMainVC alloc] init];
+//                            [resourceMainVC setClassInfo:classInfo];
+//                            NSString *schoolName = classInfo.school.schoolName;
+//                            [MobClick event:@"click_estimate_id" attributes:@{@"OrgName" : schoolName}];
+//                            [CurrentROOTNavigationVC pushViewController:resourceMainVC animated:YES];
                             
                         }
                         else if([host isEqualToString:@"class_album"])

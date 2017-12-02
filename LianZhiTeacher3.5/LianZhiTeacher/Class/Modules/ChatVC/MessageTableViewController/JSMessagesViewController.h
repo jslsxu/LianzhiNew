@@ -11,6 +11,7 @@
     CGFloat                 _previousTextViewContentHeight;
     NSTimer*                _timer;
 }
+@property (nonatomic, assign)BOOL quietModeOn;
 @property (nonatomic, copy)NSString *targetID;
 @property (nonatomic, copy)NSString *to_objid;
 @property (nonatomic, assign)ChatType chatType;

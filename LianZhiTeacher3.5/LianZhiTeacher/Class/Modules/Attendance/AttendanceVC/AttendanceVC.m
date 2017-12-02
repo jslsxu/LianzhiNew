@@ -158,6 +158,7 @@
         ClassInfo* item2 = (ClassInfo *)obj2;
         return [[item1.name transformToPinyin] compare:[item2.name transformToPinyin]];
     }];
+    [studentsAttendanceVC setSelectedDate:[self.calendar currentSelectedDate]];
     [studentsAttendanceVC setClassInfoArray:classInfoArray];
     [self.navigationController pushViewController:studentsAttendanceVC animated:YES];
 }

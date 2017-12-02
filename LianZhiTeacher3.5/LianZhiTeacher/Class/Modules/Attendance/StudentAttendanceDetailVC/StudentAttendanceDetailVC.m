@@ -54,7 +54,7 @@
 
 - (Calendar *)calendar{
     if(_calendar == nil){
-        _calendar = [[Calendar alloc] initWithDate:[NSDate date]];
+        _calendar = [[Calendar alloc] initWithDate:[self selectedDate] ? : [NSDate date]];
         [_calendar setDelegate:self];
     }
     return _calendar;

@@ -85,10 +85,6 @@ static MarkType currentMarkType = MarkTypeNone;
         [self addSubview:_textField];
 
         [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(textFieldDidChanged:) name:UITextFieldTextDidChangeNotification object:_textField];
-        __weak typeof(self) wself = self;
-        [RACObserve(_textField, text) subscribeNext:^(id x) {
-            wself.teacherMark.comment = wself.textField.text;
-        }];
     }
     return self;
 }
@@ -188,6 +184,7 @@ static MarkType currentMarkType = MarkTypeNone;
                 }
             }
         }
+        self.teacherMark.comment = self.textField.text;
     }
 }
 

@@ -16,7 +16,7 @@
 #import "NotificationPreviewVC.h"
 #import "NotificationManager.h"
 #import "NotificationDraftManager.h"
-#import "NotificationScopeVC.h"
+
 #define kNotificationMaxPhotoNum        9
 
 @interface NotificationSendVC ()<NotificationInputDelegate,
@@ -431,8 +431,6 @@ DNImagePickerControllerDelegate>
     }];
     [self.navigationController pushViewController:targetSelectVC animated:YES];
 
-//    NotificationScopeVC* scopeVC = [[NotificationScopeVC alloc] init];
-//    [self.navigationController pushViewController:scopeVC animated:YES];
 }
 
 - (void)deleteUserInfo:(UserInfo *)userInfo{
@@ -507,8 +505,8 @@ DNImagePickerControllerDelegate>
         [ProgressHUD showHintText:@"请选择发送对象"];
         return NO;
     }
-    
-    if([self.sendEntity.words length] == 0){
+    NSString* words = [self.sendEntity.words stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
+    if([words length] == 0){
         [ProgressHUD showHintText:@"请输入通知内容"];
         return NO;
     }

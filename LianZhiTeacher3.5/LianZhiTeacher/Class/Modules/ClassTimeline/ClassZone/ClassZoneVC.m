@@ -771,7 +771,7 @@ NSString *const kPublishPhotoItemKey = @"PublishPhotoItemKey";
 {
     PhotoFlowVC *photoVC = [[PhotoFlowVC alloc] init];
     [photoVC setShouldShowEmptyHint:YES];
-    [photoVC setClassID:self.classInfo.classID];
+    [photoVC setClassInfo:self.classInfo];
     [CurrentROOTNavigationVC pushViewController:photoVC animated:YES];
 }
 

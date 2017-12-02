@@ -275,6 +275,7 @@
         [chatVC setTargetID:groupItem.fromInfo.uid];
         [chatVC setTo_objid:groupItem.fromInfo.from_obj_id];
         [chatVC setMobile:groupItem.fromInfo.mobile];
+        [chatVC setQuietModeOn:!groupItem.soundOn];
         NSString *title = groupItem.fromInfo.name;
         [chatVC setName:title];
         [self.navigationController pushViewController:chatVC animated:YES];

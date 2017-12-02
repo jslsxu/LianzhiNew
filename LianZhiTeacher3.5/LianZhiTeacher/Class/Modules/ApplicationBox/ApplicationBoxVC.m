@@ -19,7 +19,7 @@
 #import "NotificationSendVC.h"
 #import "NotificationHistoryVC.h"
 #import "TestWebVC.h"
-#import "LZMicrolessonVCViewController.h"
+//#import "LZMicrolessonVCViewController.h"
 #import "AttendanceVC.h"
 #import "StudentsAttendanceVC.h"
 #define kBannerHeight               (kScreenWidth * 29 / 64)
@@ -369,7 +369,7 @@
         if([host isEqualToString:@"lzmicrolesson.edugate.cn"]){
             //url = @" http://125.39.80.78:3000/app/ios/?userId=1060240&userRole=T";
             [MobClick event:@"click_lzmicrolesson_id" attributes:@{@"OrgName" : schoolName}];
-            webVC = [[LZMicrolessonVCViewController alloc] initWithUrl:[NSURL URLWithString:url]];
+//            webVC = [[LZMicrolessonVCViewController alloc] initWithUrl:[NSURL URLWithString:url]];
         }
         else
         {
@@ -489,7 +489,7 @@
                 ClassSelectionVC *selectionVC = [[ClassSelectionVC alloc] init];
                 [selectionVC setSelection:^(ClassInfo *classInfo) {
                     PhotoFlowVC *albumVC = [[PhotoFlowVC alloc] init];
-                    [albumVC setClassID:classInfo.classID];
+                    [albumVC setClassInfo:classInfo];
                     [MobClick event:@"click_class_album_id" attributes:@{@"OrgName" : schoolName}];
                     [CurrentROOTNavigationVC pushViewController:albumVC animated:YES];
                 }];
@@ -499,7 +499,7 @@
             else{
                 ClassInfo* classInfo = [UserCenter sharedInstance].curSchool.allClasses[0];
                 PhotoFlowVC *albumVC = [[PhotoFlowVC alloc] init];
-                [albumVC setClassID:classInfo.classID];
+                [albumVC setClassInfo:classInfo];
                 [MobClick event:@"click_class_album_id" attributes:@{@"OrgName" : schoolName}];
                 [CurrentROOTNavigationVC pushViewController:albumVC animated:YES];
             }

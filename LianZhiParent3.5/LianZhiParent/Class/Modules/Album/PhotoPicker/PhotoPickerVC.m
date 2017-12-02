@@ -69,7 +69,7 @@
     [_confirmButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     [_confirmButton setEnabled:NO];
     [_confirmButton.titleLabel setFont:[UIFont systemFontOfSize:16]];
-    [_confirmButton setTitle:@"完成" forState:UIControlStateNormal];
+    [_confirmButton setTitle:@"确定" forState:UIControlStateNormal];
     [_confirmButton addTarget:self action:@selector(onConfirm) forControlEvents:UIControlEventTouchUpInside];
     [bottomView addSubview:_confirmButton];
     

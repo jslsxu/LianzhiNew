@@ -10,8 +10,8 @@ pod "FDFullscreenPopGesture"
 pod 'Masonry'
 pod 'SCRecorder'
 pod 'ReactiveCocoa'
-pod 'UMengAnalytics'
+pod "UMengAnalytics-NO-IDFA"
 pod 'TTTAttributedLabel'
 pod 'STPickerView'
-pod 'CryptoSwift'
+#pod 'CryptoSwift'
 end

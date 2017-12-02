@@ -26,7 +26,6 @@ SYNTHESIZE_SINGLETON_FOR_CLASS(HttpRequestEngine)
         jsonSerializer.removesKeysWithNullValues = YES;
         jsonSerializer.acceptableContentTypes = [NSSet setWithObjects:@"application/json", @"text/json", @"text/javascript",@"text/html", nil];
         _sessionManager = [[AFHTTPSessionManager alloc] init];
-        [[AFNetworkActivityIndicatorManager sharedManager] setEnabled:YES];
     }
     return self;
 }

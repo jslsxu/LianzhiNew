@@ -66,6 +66,7 @@
         [_captureButton addTarget:self action:@selector(startCapture) forControlEvents:UIControlEventTouchDown];
         [_captureButton addTarget:self action:@selector(captureFinished) forControlEvents:UIControlEventTouchUpInside];
         [_captureButton addTarget:self action:@selector(recordButtonDragExit) forControlEvents:UIControlEventTouchDragExit];
+        [_captureButton addTarget:self action:@selector(recordButtonDragInside) forControlEvents:UIControlEventTouchDragEnter];
         [_captureButton addTarget:self action:@selector(recordButtonTouchUpOutside) forControlEvents:UIControlEventTouchUpOutside];
         [_contentView addSubview:_captureButton];
         
@@ -135,6 +136,10 @@
 
 - (void)recordButtonDragExit{
     [_statusLabel setText:@"松开手指，取消发送"];
+}
+
+- (void)recordButtonDragInside{
+    [_statusLabel setText:@"向上滑动，取消发送"];
 }
 
 - (void)recordButtonTouchUpOutside{

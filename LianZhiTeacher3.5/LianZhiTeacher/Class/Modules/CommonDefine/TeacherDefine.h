@@ -11,7 +11,6 @@
 
 
 //#define kRootRequestUrl             @"http://t2.test.lb.5tree.cn"
-//#define kRootRequestUrl                   @"http://t.mapi.wangyichuan.cn"
-//#define kRootRequestUrl             @"http://t.test.lb.5tree.cn"
-#define kRootRequestUrl             @"http://t.lb.5tree.cn"          //新发布环境
+#define kRootRequestUrl             @"http://t.test.lb.5tree.cn"
+//#define kRootRequestUrl             @"http://t.lb.5tree.cn"          //新发布环境
 #endif

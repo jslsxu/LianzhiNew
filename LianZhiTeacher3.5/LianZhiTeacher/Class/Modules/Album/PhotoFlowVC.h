@@ -9,6 +9,7 @@
 #import "TNBaseCollectionViewController.h"
 #import "MJPhotoBrowser.h"
 #import "PhotoFlowModel.h"
+#import "SchoolInfo.h"
 @interface PhotoFlowVC : TNBaseCollectionViewController
-@property (nonatomic, copy)NSString *classID;
+@property (nonatomic, strong)ClassInfo *classInfo;
 @end

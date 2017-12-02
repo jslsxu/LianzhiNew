@@ -58,7 +58,7 @@ static CGFloat const kSendButtonTextWitdh = 38.0f;
     
     _sendButton = [UIButton buttonWithType:UIButtonTypeCustom];
     _sendButton.frame = CGRectMake(0, 0, self.width, self.height);
-    [_sendButton setTitle:@"发送"
+    [_sendButton setTitle:@"确定"
                  forState:UIControlStateNormal];
     [_sendButton setTitleColor:[UIColor hexStringToColor:dnSendButtonTintNormalColor] forState:UIControlStateNormal];
     [_sendButton setTitleColor:[UIColor hexStringToColor:dnSendButtonTintAbnormalColor] forState:UIControlStateHighlighted];

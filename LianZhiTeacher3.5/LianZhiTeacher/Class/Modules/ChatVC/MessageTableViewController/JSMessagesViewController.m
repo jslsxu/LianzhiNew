@@ -10,7 +10,6 @@
 static NSString *topChatID = nil;
 
 @interface JSMessagesViewController ()
-@property (nonatomic, assign)BOOL quietModeOn;
 @property (nonatomic, strong)UITableView *tableView;
 @property (nonatomic, strong)ChatMessageModel *chatMessageModel;
 @property (nonatomic, assign)BOOL isRequestHistory;
@@ -94,7 +93,7 @@ static NSString *topChatID = nil;
     [self.view addSubview:_inputView];
     
     [self.view addSubview:[self tableView]];
-
+    [self.chatMessageModel setQuietModeOn:self.quietModeOn];
     [self.chatMessageModel setTargetUser:self.name];
     [self scrollToBottom:NO];
     UITapGestureRecognizer *tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(onTap)];

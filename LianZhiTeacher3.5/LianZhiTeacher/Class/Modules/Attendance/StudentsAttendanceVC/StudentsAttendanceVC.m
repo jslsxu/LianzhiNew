@@ -44,12 +44,12 @@
     [self.tableView setSectionIndexColor:kColor_66];
     [self.tableView setSectionIndexBackgroundColor:[UIColor clearColor]];
     [self bindTableCell:@"StudentsAttendanceCell" tableModel:@"StudentsAttendanceListModel"];
-    [self requestData:REQUEST_REFRESH];
+    [self calendarDateDidChange:self.selectedDate];
 }
 
 - (Calendar *)calendar{
     if(_calendar == nil){
-        _calendar = [[Calendar alloc] initWithDate:[NSDate date]];
+        _calendar = [[Calendar alloc] initWithDate:[self selectedDate]];
         [_calendar setDelegate:self];
     }
     return _calendar;
@@ -326,6 +326,7 @@
 - (void)TNBaseTableViewControllerItemSelected:(TNModelItem *)modelItem atIndex:(NSIndexPath *)indexPath{
     StudentAttendanceItem* item = (StudentAttendanceItem *)modelItem;
     StudentAttendanceDetailVC* detailVC = [[StudentAttendanceDetailVC alloc] init];
+    [detailVC setSelectedDate:self.calendar.currentSelectedDate];
     [detailVC setClassInfo:self.classInfo];
     [detailVC setStudentInfo:item.child_info];
     [self.navigationController pushViewController:detailVC animated:YES];

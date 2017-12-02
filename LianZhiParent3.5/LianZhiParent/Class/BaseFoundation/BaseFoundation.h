@@ -87,5 +87,5 @@
 #import "NHFileManager.h"
 #import "PhotoBrowser.h"
 #import "PBImageController.h"
-#import "UMMobClick/MobClick.h"
+#import <UMMobClick/MobClick.h>
 #endif

@@ -90,7 +90,6 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/CTAssetsPickerController/CTAssetsPickerController.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/CryptoSwift/CryptoSwift.framework"
   install_framework "$BUILT_PRODUCTS_DIR/DACircularProgress/DACircularProgress.framework"
   install_framework "$BUILT_PRODUCTS_DIR/FCFileManager/FCFileManager.framework"
   install_framework "$BUILT_PRODUCTS_DIR/FDFullscreenPopGesture/FDFullscreenPopGesture.framework"
@@ -114,7 +113,6 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/CTAssetsPickerController/CTAssetsPickerController.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/CryptoSwift/CryptoSwift.framework"
   install_framework "$BUILT_PRODUCTS_DIR/DACircularProgress/DACircularProgress.framework"
   install_framework "$BUILT_PRODUCTS_DIR/FCFileManager/FCFileManager.framework"
   install_framework "$BUILT_PRODUCTS_DIR/FDFullscreenPopGesture/FDFullscreenPopGesture.framework"

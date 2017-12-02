@@ -17,7 +17,6 @@
 #import "NotificationVideoView.h"
 #import "HomeworkExplainView.h"
 #import "HomeworkSettingView.h"
-#import "NotificationMemberSelectVC.h"
 #import "HomeworkNumView.h"
 #import "HomeworkCourseView.h"
 #import "CourseSelectVC.h"

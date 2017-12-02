@@ -19,6 +19,6 @@ pod 'MGSwipeTableCell'
 pod 'UMengAnalytics'
 pod 'TTTAttributedLabel'
 pod 'WYPopoverController'
-pod 'CryptoSwift'
+#pod 'CryptoSwift'
 
 end

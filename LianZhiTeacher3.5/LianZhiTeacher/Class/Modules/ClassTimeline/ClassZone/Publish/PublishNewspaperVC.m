@@ -55,6 +55,7 @@
     [_publishButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     [_publishButton.titleLabel setFont:[UIFont systemFontOfSize:16]];
     [_publishButton setTitle:@"写好了，公布" forState:UIControlStateNormal];
+    [_publishButton setEnabled:NO];
     [self.view addSubview:_publishButton];
     
     [self textViewDidChange:_textView];
@@ -69,6 +70,7 @@
 {
     [self.view endEditing:YES];
     NSString *publishText = [_textView text];
+    
     NSMutableDictionary *params = [NSMutableDictionary dictionary];
     [params setValue:self.classInfo.classID forKey:@"class_id"];
     [params setValue:publishText forKey:@"words"];
@@ -114,6 +116,7 @@
     if(num > kNewpaperMaxNum)
         [textView setText:[text substringToIndex:kNewpaperMaxNum]];
     [_numLabel setText:kStringFromValue(kNewpaperMaxNum - [textView.text length])];
+    [_publishButton setEnabled:![textView.text isEqualToString:self.newsPaper]];
 }
 
 

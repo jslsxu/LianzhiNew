@@ -15,6 +15,7 @@
 @end
 
 @interface ChatMessageModel ()
+@property (nonatomic, assign)BOOL firstIn;
 @property (nonatomic, strong)NSMutableArray* modelItemArray;
 @property (nonatomic, copy)NSString *uid;
 @property (nonatomic, assign)ChatType type;
@@ -58,6 +59,7 @@
     if(self){
         self.uid = uid;
         self.type = type;
+        self.firstIn = YES;
         NSString *tableName = [self tableName];
         BOOL tableExist = [self.database tableExists:tableName];
         if(!tableExist){
@@ -360,7 +362,7 @@
         
         if(addNum > 0){
             [self sortMessage];
-            if(type == RequestMessageTypeLatest && originalNum > 0){
+            if(type == RequestMessageTypeLatest && originalNum > 0 && !self.quietModeOn && !self.firstIn){
                 //有新消息，播放声音
                 if([UserCenter sharedInstance].personalSetting.soundOn)
                     [ApplicationDelegate playSound];
@@ -384,6 +386,9 @@
                 }
             }
         }
+    }
+    if(self.firstIn){
+        self.firstIn = !self.firstIn;
     }
     
     return type == RequestMessageTypeLatest && (addNum + updateCount);

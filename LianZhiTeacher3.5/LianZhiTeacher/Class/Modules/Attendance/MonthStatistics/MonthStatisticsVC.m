@@ -202,6 +202,7 @@
 - (void)TNBaseTableViewControllerItemSelected:(TNModelItem *)modelItem atIndex:(NSIndexPath *)indexPath{
     MonthStatisticsItem *item = (MonthStatisticsItem *)modelItem;
     StudentAttendanceDetailVC* detailVC = [[StudentAttendanceDetailVC alloc] init];
+    [detailVC setSelectedDate:self.date];
     [detailVC setClassInfo:self.classInfo];
     [detailVC setStudentInfo:item.child_info];
     [CurrentROOTNavigationVC pushViewController:detailVC animated:YES];

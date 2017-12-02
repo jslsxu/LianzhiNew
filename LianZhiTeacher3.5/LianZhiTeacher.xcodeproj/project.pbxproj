@@ -7,14 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		370373BD1EB4A11E00A24BC7 /* NotificationScopeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 370373BC1EB4A11E00A24BC7 /* NotificationScopeVC.m */; };
 		370373C01EB4AA5100A24BC7 /* NotificationGradeSelectVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 370373BF1EB4AA5100A24BC7 /* NotificationGradeSelectVC.m */; };
 		3705FF941BA2BE7200F0C6F6 /* NumIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3705FF931BA2BE7200F0C6F6 /* NumIndicator.m */; };
 		3707E6711C041EFB00944B8D /* MyGiftVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3707E6701C041EFB00944B8D /* MyGiftVC.m */; };
 		370F33D71A78795000FED3C2 /* AboutVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 370F33D21A78795000FED3C2 /* AboutVC.m */; };
 		370F33D81A78795000FED3C2 /* ContactServiceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 370F33D41A78795000FED3C2 /* ContactServiceVC.m */; };
 		370F33D91A78795000FED3C2 /* PersonalSettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 370F33D61A78795000FED3C2 /* PersonalSettingVC.m */; };
-		3715737B1DE5EA93007A942B /* LZMicrolessonVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 371572D11DE5EA93007A942B /* LZMicrolessonVCViewController.m */; };
 		3719A7441AA2319000FBDC2A /* NewEditionPreview.m in Sources */ = {isa = PBXBuildFile; fileRef = 3719A7431AA2319000FBDC2A /* NewEditionPreview.m */; };
 		371C6DAB1A7015AF00FA4AEC /* PublishArticleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 371C6DA21A7015AF00FA4AEC /* PublishArticleVC.m */; };
 		371C6DAC1A7015AF00FA4AEC /* PublishAudioVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 371C6DA41A7015AF00FA4AEC /* PublishAudioVC.m */; };
@@ -60,8 +58,7 @@
 		377709301E27D46A001168AD /* AttendanceNotificationListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3777092F1E27D46A001168AD /* AttendanceNotificationListModel.m */; };
 		377709331E27D47E001168AD /* AttendanceNotificationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 377709321E27D47E001168AD /* AttendanceNotificationItem.m */; };
 		378948381E4C3A4F00C7E131 /* UIImage+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 378948371E4C3A4F00C7E131 /* UIImage+Additions.m */; };
-		3789800E1E56AD9A00E116D7 /* LZCameraScanView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3789800D1E56AD9A00E116D7 /* LZCameraScanView.m */; };
-		378980181E56C46000E116D7 /* CryptoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378980171E56C46000E116D7 /* CryptoHelper.swift */; };
+		378A57081FCECFE200DFC839 /* Pods_LianZhiTeacher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 378A57091FCECFE200DFC839 /* Pods_LianZhiTeacher.framework */; };
 		378C78431AA43D6C00E171E2 /* PreviewMessageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 378C78421AA43D6C00E171E2 /* PreviewMessageVC.m */; };
 		3792B2B31E4B2D8C000549C7 /* GrowthRecordDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3792B2AB1E4B2D8C000549C7 /* GrowthRecordDetailVC.m */; };
 		3792B2B41E4B2D8C000549C7 /* GrowthRecordChildSelectVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3792B2AD1E4B2D8C000549C7 /* GrowthRecordChildSelectVC.m */; };
@@ -272,7 +269,6 @@
 		37DF9AAA1E0E52820020B49E /* NoteDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DF9AA91E0E52820020B49E /* NoteDetailView.m */; };
 		37DF9AAD1E0ED49F0020B49E /* NoteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DF9AAC1E0ED49F0020B49E /* NoteView.m */; };
 		37E038E81A7386D3003A3A7F /* PublishNewspaperVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E038E71A7386D3003A3A7F /* PublishNewspaperVC.m */; };
-		37E5F64A1DF7E5530062941C /* LZOfficeVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E5F6491DF7E5530062941C /* LZOfficeVCViewController.m */; };
 		37E93F991A7DC48200AD45A1 /* TNActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E93F961A7DC48200AD45A1 /* TNActionSheet.m */; };
 		37E93F9A1A7DC48200AD45A1 /* TNAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E93F981A7DC48200AD45A1 /* TNAlertView.m */; };
 		37E93FC11A7E9CC600AD45A1 /* CHTCollectionViewWaterfallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E93FB21A7E9CC600AD45A1 /* CHTCollectionViewWaterfallLayout.m */; };
@@ -328,7 +324,6 @@
 		37FF16D61E06B98C009F10EA /* AttendanceNotificationListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF16D51E06B98C009F10EA /* AttendanceNotificationListVC.m */; };
 		37FF16D91E06B9AF009F10EA /* AttendanceNotificationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF16D81E06B9AF009F10EA /* AttendanceNotificationCell.m */; };
 		37FF16E31E06C690009F10EA /* FilterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF16E21E06C690009F10EA /* FilterView.m */; };
-		8533F3A8793479D48CD03FE3 /* Pods_LianZhiTeacher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1428FE33829AA5E6F670238 /* Pods_LianZhiTeacher.framework */; };
 		8D11AC8B1DC85B630096DCEE /* HomeworkPreviewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D11AC8A1DC85B630096DCEE /* HomeworkPreviewVC.m */; };
 		8D3D457A1D5B2118005EA8EA /* NotificationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3D45791D5B2118005EA8EA /* NotificationItem.m */; };
 		8D3D457D1D5B24A6005EA8EA /* NotificationPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3D457C1D5B24A6005EA8EA /* NotificationPreviewView.m */; };
@@ -518,8 +513,6 @@
 /* Begin PBXFileReference section */
 		0DFE116D358F8B53171F7C11 /* Pods-LianZhiTeacher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LianZhiTeacher.release.xcconfig"; path = "Pods/Target Support Files/Pods-LianZhiTeacher/Pods-LianZhiTeacher.release.xcconfig"; sourceTree = "<group>"; };
 		12BAF958CB1E5D40BB0B5AF4 /* Pods-LianZhiTeacher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LianZhiTeacher.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LianZhiTeacher/Pods-LianZhiTeacher.debug.xcconfig"; sourceTree = "<group>"; };
-		370373BB1EB4A11E00A24BC7 /* NotificationScopeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationScopeVC.h; sourceTree = "<group>"; };
-		370373BC1EB4A11E00A24BC7 /* NotificationScopeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationScopeVC.m; sourceTree = "<group>"; };
 		370373BE1EB4AA5100A24BC7 /* NotificationGradeSelectVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationGradeSelectVC.h; sourceTree = "<group>"; };
 		370373BF1EB4AA5100A24BC7 /* NotificationGradeSelectVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationGradeSelectVC.m; sourceTree = "<group>"; };
 		3705FF921BA2BE7200F0C6F6 /* NumIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumIndicator.h; sourceTree = "<group>"; };
@@ -532,8 +525,6 @@
 		370F33D41A78795000FED3C2 /* ContactServiceVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactServiceVC.m; sourceTree = "<group>"; };
 		370F33D51A78795000FED3C2 /* PersonalSettingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalSettingVC.h; sourceTree = "<group>"; };
 		370F33D61A78795000FED3C2 /* PersonalSettingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalSettingVC.m; sourceTree = "<group>"; };
-		371572D01DE5EA93007A942B /* LZMicrolessonVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZMicrolessonVCViewController.h; sourceTree = "<group>"; };
-		371572D11DE5EA93007A942B /* LZMicrolessonVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZMicrolessonVCViewController.m; sourceTree = "<group>"; };
 		3719A7421AA2319000FBDC2A /* NewEditionPreview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewEditionPreview.h; sourceTree = "<group>"; };
 		3719A7431AA2319000FBDC2A /* NewEditionPreview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewEditionPreview.m; sourceTree = "<group>"; };
 		371C6DA11A7015AF00FA4AEC /* PublishArticleVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublishArticleVC.h; sourceTree = "<group>"; };
@@ -616,10 +607,7 @@
 		377709321E27D47E001168AD /* AttendanceNotificationItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttendanceNotificationItem.m; sourceTree = "<group>"; };
 		378948361E4C3A4F00C7E131 /* UIImage+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Additions.h"; sourceTree = "<group>"; };
 		378948371E4C3A4F00C7E131 /* UIImage+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Additions.m"; sourceTree = "<group>"; };
-		3789800C1E56AD9A00E116D7 /* LZCameraScanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZCameraScanView.h; sourceTree = "<group>"; };
-		3789800D1E56AD9A00E116D7 /* LZCameraScanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZCameraScanView.m; sourceTree = "<group>"; };
-		378980161E56C43000E116D7 /* LianZhiTeacher-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LianZhiTeacher-Bridging-Header.h"; sourceTree = "<group>"; };
-		378980171E56C46000E116D7 /* CryptoHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CryptoHelper.swift; sourceTree = "<group>"; };
+		378A57091FCECFE200DFC839 /* Pods_LianZhiTeacher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_LianZhiTeacher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		378C78411AA43D6C00E171E2 /* PreviewMessageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreviewMessageVC.h; sourceTree = "<group>"; };
 		378C78421AA43D6C00E171E2 /* PreviewMessageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreviewMessageVC.m; sourceTree = "<group>"; };
 		3792B2AA1E4B2D8C000549C7 /* GrowthRecordDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowthRecordDetailVC.h; sourceTree = "<group>"; };
@@ -1023,8 +1011,6 @@
 		37DF9AAC1E0ED49F0020B49E /* NoteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteView.m; sourceTree = "<group>"; };
 		37E038E61A7386D3003A3A7F /* PublishNewspaperVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublishNewspaperVC.h; sourceTree = "<group>"; };
 		37E038E71A7386D3003A3A7F /* PublishNewspaperVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublishNewspaperVC.m; sourceTree = "<group>"; };
-		37E5F6481DF7E5530062941C /* LZOfficeVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZOfficeVCViewController.h; sourceTree = "<group>"; };
-		37E5F6491DF7E5530062941C /* LZOfficeVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZOfficeVCViewController.m; sourceTree = "<group>"; };
 		37E93F951A7DC48200AD45A1 /* TNActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNActionSheet.h; sourceTree = "<group>"; };
 		37E93F961A7DC48200AD45A1 /* TNActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNActionSheet.m; sourceTree = "<group>"; };
 		37E93F971A7DC48200AD45A1 /* TNAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNAlertView.h; sourceTree = "<group>"; };
@@ -1503,6 +1489,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				378A57081FCECFE200DFC839 /* Pods_LianZhiTeacher.framework in Frameworks */,
 				8D7575D91DAA6309008E650E /* UserNotifications.framework in Frameworks */,
 				8DFDDD821D93ADCC0050740B /* WebKit.framework in Frameworks */,
 				8DCFD73D1D54773D001EDC8A /* MediaPlayer.framework in Frameworks */,
@@ -1529,28 +1516,12 @@
 				37D5122F1C31637A00432A7B /* AMapSearchKit.framework in Frameworks */,
 				37D8FEA71AC1398400E006FC /* libz.dylib in Frameworks */,
 				37C88F791A83AD08008E44DB /* AudioToolbox.framework in Frameworks */,
-				8533F3A8793479D48CD03FE3 /* Pods_LianZhiTeacher.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		371572CF1DE5EA93007A942B /* MicroLession */ = {
-			isa = PBXGroup;
-			children = (
-				371572D01DE5EA93007A942B /* LZMicrolessonVCViewController.h */,
-				371572D11DE5EA93007A942B /* LZMicrolessonVCViewController.m */,
-				37E5F6481DF7E5530062941C /* LZOfficeVCViewController.h */,
-				37E5F6491DF7E5530062941C /* LZOfficeVCViewController.m */,
-				3789800C1E56AD9A00E116D7 /* LZCameraScanView.h */,
-				3789800D1E56AD9A00E116D7 /* LZCameraScanView.m */,
-				378980161E56C43000E116D7 /* LianZhiTeacher-Bridging-Header.h */,
-				378980171E56C46000E116D7 /* CryptoHelper.swift */,
-			);
-			path = MicroLession;
-			sourceTree = "<group>";
-		};
 		371C6D891A700DBA00FA4AEC /* PhotoPicker */ = {
 			isa = PBXGroup;
 			children = (
@@ -1748,7 +1719,6 @@
 				3793F5131B7B2CF400501F77 /* ApplicationBoxVC.m */,
 				8DE7186E1DAC94FF0080476D /* TestWebVC.h */,
 				8DE7186F1DAC94FF0080476D /* TestWebVC.m */,
-				371572CF1DE5EA93007A942B /* MicroLession */,
 			);
 			path = ApplicationBox;
 			sourceTree = "<group>";
@@ -3076,6 +3046,7 @@
 		4DE57A3C964C8D65901D1DC5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				378A57091FCECFE200DFC839 /* Pods_LianZhiTeacher.framework */,
 				8D7575D81DAA6309008E650E /* UserNotifications.framework */,
 				8DFDDD811D93ADCC0050740B /* WebKit.framework */,
 				8DCFD73C1D54773D001EDC8A /* MediaPlayer.framework */,
@@ -3324,8 +3295,6 @@
 			children = (
 				8D867D341D3F7BF80020A21C /* NotificationSendVC.h */,
 				8D867D351D3F7BF80020A21C /* NotificationSendVC.m */,
-				370373BB1EB4A11E00A24BC7 /* NotificationScopeVC.h */,
-				370373BC1EB4A11E00A24BC7 /* NotificationScopeVC.m */,
 				8DCFD6AC1D4C5639001EDC8A /* NotificationPreviewVC.h */,
 				8DCFD6AD1D4C5639001EDC8A /* NotificationPreviewVC.m */,
 				8D867D521D3FE2290020A21C /* NotificationMemberSelectVC.h */,
@@ -3743,12 +3712,12 @@
 		37C355C81A3FD5CF00B948E6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = jslsxu;
 				TargetAttributes = {
 					37C355CF1A3FD5CF00B948E6 = {
 						CreatedOnToolsVersion = 6.1;
-						DevelopmentTeam = ZNQ7SU9FMT;
+						DevelopmentTeam = 8D9P9435FD;
 						LastSwiftMigration = 0810;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
@@ -3891,7 +3860,6 @@
 				8DCFD6851D4B211F001EDC8A /* NotificationVideoView.m in Sources */,
 				8D867D461D3F7BF80020A21C /* NotificationSendChoiceView.m in Sources */,
 				37DF9A8C1E0C28100020B49E /* EditAttendanceVC.m in Sources */,
-				37E5F64A1DF7E5530062941C /* LZOfficeVCViewController.m in Sources */,
 				3793FA6C1B7CFFF000501F77 /* AFSecurityPolicy.m in Sources */,
 				8D7575E11DAA92D9008E650E /* HomeworkReplySwitchView.m in Sources */,
 				379947EA1A66B430008E4B4F /* PhotoFlowModel.m in Sources */,
@@ -3910,7 +3878,6 @@
 				8DE718561DABA6130080476D /* HomeworkTargetListView.m in Sources */,
 				8DCFD7091D50AF25001EDC8A /* ChatExtraIndividualInfoVC.m in Sources */,
 				37FF16CC1E06B437009F10EA /* CalendarMonthIndicator.m in Sources */,
-				370373BD1EB4A11E00A24BC7 /* NotificationScopeVC.m in Sources */,
 				37E93FC11A7E9CC600AD45A1 /* CHTCollectionViewWaterfallLayout.m in Sources */,
 				8D93F8B61DA00719000C15FC /* CourseSelectVC.m in Sources */,
 				8D93F8BC1DA0EB24000C15FC /* HomeworkClassContentView.m in Sources */,
@@ -4101,7 +4068,6 @@
 				3725715B1A80C0450087F178 /* SettingDatePickerView.m in Sources */,
 				37FD70BE1BBDB7B400C83AB4 /* PraiseListView.m in Sources */,
 				3793FAF21B7CFFF000501F77 /* TaskUploadManager.m in Sources */,
-				378980181E56C46000E116D7 /* CryptoHelper.swift in Sources */,
 				3793FA831B7CFFF000501F77 /* ActionSelectView.m in Sources */,
 				37C7927C1EA76F0C001546BE /* OpenShare+Weibo.m in Sources */,
 				3793FA961B7CFFF000501F77 /* SimpleImageScanView.m in Sources */,
@@ -4118,7 +4084,6 @@
 				3736CEB41C508D31004DB2D2 /* InterestVC.m in Sources */,
 				8D867C541D2F7A840020A21C /* XMNAlbumModel.m in Sources */,
 				37DEE4F01A57C24A009A8771 /* PersonalInfoVC.m in Sources */,
-				3715737B1DE5EA93007A942B /* LZMicrolessonVCViewController.m in Sources */,
 				37FD6E751BBC51DF00C83AB4 /* ClassMemberVC.m in Sources */,
 				8DE718531DABA6020080476D /* HomeworkDetailView.m in Sources */,
 				3728A73B1B9D376300310457 /* MFWFace.m in Sources */,
@@ -4132,7 +4097,6 @@
 				3793FAB91B7CFFF000501F77 /* MLAudioRecorder.m in Sources */,
 				37FD6E281BB444FB00C83AB4 /* ClassSelectionVC.m in Sources */,
 				3793FA291B7CFFF000501F77 /* OpenUDID.m in Sources */,
-				3789800E1E56AD9A00E116D7 /* LZCameraScanView.m in Sources */,
 				37FEA96B1C4657E900E7425B /* GiftDetailView.m in Sources */,
 				37FD70AE1BBD7A8000C83AB4 /* DetailCommentCell.m in Sources */,
 				3793FA261B7CFFF000501F77 /* MBProgressHUD+Add.m in Sources */,
@@ -4337,14 +4301,20 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -4385,14 +4355,20 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -4428,15 +4404,13 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_ENTITLEMENTS = LianZhiTeacher/LianZhiTeacher.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Tianjin Century Technology Co., Ltd.";
-				DEVELOPMENT_TEAM = ZNQ7SU9FMT;
+				CODE_SIGN_IDENTITY = "iPhone Developer: puhou zhang (2RD2JUNH4Y)";
+				DEFINES_MODULE = NO;
+				DEVELOPMENT_TEAM = 8D9P9435FD;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					../BaseFoundation/3rdPart/AutoNavi,
 					"$(PROJECT_DIR)/LianZhiTeacher/Class/BaseFoundation/3rdPart/AutoNavi",
-					"$(PROJECT_DIR)/LianZhiTeacher/Class/BaseFoundation/SVShare/SVSDK/extends/QQSDK",
-					"$(PROJECT_DIR)/LianZhiTeacher/Class/BaseFoundation/SVShare/SVSDK",
 				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/LianZhiTeacher/LianZhiTeacher.pch";
 				INFOPLIST_FILE = LianZhiTeacher/Info.plist;
@@ -4444,7 +4418,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/LianZhiTeacher/Class/BaseFoundation/SVShare/SVSDK/extends/WeChatSDK",
 					"$(PROJECT_DIR)/LianZhiTeacher/Class/BaseFoundation/NHAudioTool/VoiceConvert/lib",
 				);
 				NEW_SETTING = "";
@@ -4452,10 +4425,10 @@
 					"-all_load",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = cn.edugate.EdugateAppTeacher;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haocai.haocaiyunpub;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "876d3545-fcc1-4b87-b85c-a651f9ec9d2a";
-				PROVISIONING_PROFILE_SPECIFIER = TeacherInhouseNew;
+				PROVISIONING_PROFILE = "ad3cacdb-d2f3-461e-9717-569a56de4678";
+				PROVISIONING_PROFILE_SPECIFIER = HaoyunDevelopment;
 				SWIFT_OBJC_BRIDGING_HEADER = "LianZhiTeacher/Class/Modules/ApplicationBox/MicroLession/LianZhiTeacher-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
@@ -4472,15 +4445,13 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_ENTITLEMENTS = LianZhiTeacher/LianZhiTeacher.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: wei xin (JRFF54BK3W)";
-				DEVELOPMENT_TEAM = JRFF54BK3W;
+				CODE_SIGN_IDENTITY = "iPhone Developer: puhou zhang (2RD2JUNH4Y)";
+				DEFINES_MODULE = NO;
+				DEVELOPMENT_TEAM = 8D9P9435FD;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					../BaseFoundation/3rdPart/AutoNavi,
 					"$(PROJECT_DIR)/LianZhiTeacher/Class/BaseFoundation/3rdPart/AutoNavi",
-					"$(PROJECT_DIR)/LianZhiTeacher/Class/BaseFoundation/SVShare/SVSDK/extends/QQSDK",
-					"$(PROJECT_DIR)/LianZhiTeacher/Class/BaseFoundation/SVShare/SVSDK",
 				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/LianZhiTeacher/LianZhiTeacher.pch";
 				INFOPLIST_FILE = LianZhiTeacher/Info.plist;
@@ -4488,7 +4459,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/LianZhiTeacher/Class/BaseFoundation/SVShare/SVSDK/extends/WeChatSDK",
 					"$(PROJECT_DIR)/LianZhiTeacher/Class/BaseFoundation/NHAudioTool/VoiceConvert/lib",
 				);
 				NEW_SETTING = "";
@@ -4496,10 +4466,10 @@
 					"-all_load",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = cn.edugate.EdugateAppTeacher;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haocai.haocaiyunpub;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "6e0e2e13-6ddc-4c0d-9c3f-4af1cedcfd2d";
-				PROVISIONING_PROFILE_SPECIFIER = LianZhiTeacherDistribution;
+				PROVISIONING_PROFILE = "ad3cacdb-d2f3-461e-9717-569a56de4678";
+				PROVISIONING_PROFILE_SPECIFIER = HaoyunDevelopment;
 				SWIFT_OBJC_BRIDGING_HEADER = "LianZhiTeacher/Class/Modules/ApplicationBox/MicroLession/LianZhiTeacher-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
